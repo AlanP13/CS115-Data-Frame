@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=dataframe_test
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=csvFile1
+comment10.target=void\ clearConsole(java.lang.String)
+comment2.params=csvFile1\ column
+comment2.target=void\ showmenuForUserInput(java.lang.String,\ java.lang.String)
+comment3.params=column
+comment3.target=void\ findMaximumbyColumnName(java.lang.String)
+comment4.params=userInput
+comment4.target=double\ maximumValueInColumn(int)
+comment5.params=column
+comment5.target=void\ findMinimumbyColumnName(java.lang.String)
+comment6.params=userInput
+comment6.target=double\ minimumValueInColumn(int)
+comment7.params=column
+comment7.target=void\ findAveragebyColumnName(java.lang.String)
+comment8.params=userInput
+comment8.target=double\ averageValueInColumn(int)
+comment9.params=csvFile1\ column\ datatype1
+comment9.target=void\ importCSVfile(java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=11

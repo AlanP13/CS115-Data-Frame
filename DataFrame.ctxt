@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DataFrame
+comment1.params=column\ datatype
+comment1.target=DataFrame(java.lang.String,\ java.lang.String)
+comment2.params=column\ datatype
+comment2.target=DataFrame(int,\ java.lang.String)
+comment3.params=column\ datatype
+comment3.target=DataFrame(float,\ java.lang.String)
+comment4.params=column\ datatype
+comment4.target=DataFrame(double,\ java.lang.String)
+comment5.params=
+comment5.target=void\ getDatatype()
+comment6.params=
+comment6.target=double\ getcolumn1()
+comment7.params=id
+comment7.target=void\ setcolumn1(double)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
