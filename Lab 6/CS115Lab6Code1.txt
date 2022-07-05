@@ -1,0 +1,31 @@
+import java.util.Scanner;
+import java.text.DecimalFormat;
+public class FederalTax{
+public static void main (String args[]){
+Scanner scan= new Scanner (System.in);
+DecimalFormat numberFormat= new DecimalFormat("$#,##0.00");
+double Income=0;
+FederalTax Tax= new Federal Tax();
+Tax.getTaxxedIncome();
+Tax.getTaxPaid();
+System.out.println("Initial FederalTax Object");
+System.out.println("Taxxed Income:"+ numberFormat.format(Tax.TaxxedIncome)+"Tax Paid:"+numberFormat.format(Tax.TaxPaid));
+System.out.println("Give amount of Taxxed income:");
+Tax.setTax(scan.nextDouble());
+Tax.getTaxxedIncome();
+Tax.getTaxPaid();
+System.out.println("Renewed FederalTax Object");
+System.out.println("Taxxed Income:"+ numberFormat.format(Tax.TaxxedIncome)+"Taxpaid:"+numberFormat.format(Tax.TaxPaid));
+System.out.println("Give amount of other Taxxed income:");
+Income=scan.nextDouble();
+Tax.setTax(Income);
+Tax.getTaxxedIncome();
+Tax.getTaxPaid();
+System.out.println("New FederalTax Object");
+System.out.println("Taxxed Income:"+ numberFormat.format(Tax.TaxxedIncome)+"Taxpaid:"+numberFormat.format(Tax.TaxPaid));
+System.out.println("Test negative Income");
+Income=scan.nextDouble();
+Tax.setTax(Income);
+Tax.getTaxxedIncome();
+Tax.getTaxPaid();
+System.out.println("Taxxed Income:"+ numberFormat.format(Tax.TaxxedIncome)+"Taxpaid:"+numberFormat.format(Tax.TaxPaid));}}

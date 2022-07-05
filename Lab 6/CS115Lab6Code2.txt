@@ -1,0 +1,27 @@
+double TaxxedIncome=0.00;
+double TaxPaid=0.00;
+public void setTax(double newTaxxedIncome){
+TaxxedIncome=newTaxxedIncome;
+if(TaxxedIncome<=0.00){
+TaxxedIncome=0.00;}
+}public double getTaxxedIncome(){
+return TaxxedIncome;}
+public double get TaxPaid(){
+if (TaxxedIncome<=21000){
+TaxPaid=(TaxxedIncome*0.15);
+return TaxPaid;}
+else if (TaxxedIncome<=53100){
+TaxPaid=(((TaxxedIncome-22100)*0.28)+3315);
+return TaxPaid;}
+else if (TaxxedIncome<=115000){
+TaxPaid=(((TaxxedIncome-53500)*0.31)+12107);
+return TaxPaid;}
+else if (TaxxedIncome<=250000){
+TaxPaid=(((TaxxedIncome-115000)*0.36)+31172);
+return TaxPaid;}
+else if (TaxxedIncome>250000){
+TaxPaid=(((TaxxedIncome-250000)*0.396)+79772);
+return TaxPaid;}
+else{
+TaxPaid=0.00;
+return TaxPaid;}}
