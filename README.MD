@@ -1,12 +1,1 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+This project aimed to create a Data Frame in Java that would store string data in a two-dimensional array format with a maximum of 10 columns and 25,000 rows to accommodate CSV file data. The implementation involved parsing the data, handling missing or null values, and optimizing the performance using data structures and algorithms such as dynamic arrays, hash tables, and sorting algorithms. The project's objective was to provide a robust and flexible solution for managing and analyzing data in a tabular format using Java, with potential applications in machine learning, data mining, and statistical analysis.
